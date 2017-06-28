@@ -416,21 +416,21 @@ header ul {
     .curious {
       width: 90%; } }
 
-.lets-connect span {
-  font-family: 'WorkSansExtraBold', serif;
-  font-size: 36px;
-  text-transform: uppercase;
-  display: block;
-  width: 100%;
-  text-align: center;
-  padding-top: 50px; }
-
-.lets-connect-socials-container {
-  text-align: center;
-  padding-bottom: 50px; }
-
-.lets-connect-social {
-  margin: auto 10px; }
+.lets-connect {
+  height: 242px; }
+  .lets-connect span {
+    font-family: 'WorkSansExtraBold', serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px; }
+  .lets-connect-socials-container {
+    text-align: center;
+    padding: 72px 0 20px 0; }
+  .lets-connect-social {
+    margin: auto 23px; }
 
 .LetsConnectON {
   background-color: #F8F8F8;

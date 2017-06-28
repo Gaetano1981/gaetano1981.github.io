@@ -1,5 +1,6 @@
 
 .lets-connect {
+    height: 242px;
     span {
         @include font-manager("lets-connect");
         display: block;
@@ -10,7 +11,7 @@
 
     &-socials-container {
         text-align: center;
-        padding-bottom: $lets-connect-social-padding-vert;
+        padding: $lets-connect-social-padding-top 0 $lets-connect-social-padding-vert 0;
     }
 
     &-social {
