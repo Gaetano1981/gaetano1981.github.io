@@ -58,8 +58,8 @@
                         $scope.projectData.push(projectItem);
                     }
                     
-                    $scope.project_title = projectXML.getElementsByTagName('project-title')[0].innerHTML;
-                    $scope.project_description = projectXML.getElementsByTagName('project-description')[0].innerHTML;
+                    $scope.project_title = xmlGetElement(projectXML.getElementsByTagName('project')[0], 'project-title');
+                    $scope.project_description = xmlGetElement(projectXML.getElementsByTagName('project')[0], 'project-description');
                     $scope.isProjectLoaded = true;
                 }, function() { 
                     $scope.isProjectLoaded = false;
