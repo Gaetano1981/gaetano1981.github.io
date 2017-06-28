@@ -5,7 +5,7 @@
         Competa.com
     </project-title>
     <project-description>
-			Together with a Scrum team I was responsible for tasks related to new Competa IT official website front-end. I built skewed borders elements overlapping with skewed border images as background. For these tasks I did use the SVG to include images and applying path clipping. Other tasks were to create website sections in which I did use the flexboxes to properly align elements, and mixins in order to avoid repeated code across the project.
+			Together with a Scrum team I was responsible for tasks related to new Competa IT official website frontend. I built skewed borders elements overlapping with skewed border images as background. For these tasks I did use the SVG to include images and applying path clipping. Other tasks were to create website sections in which I did use the flexboxes to properly align elements, and mixins in order to avoid repeated code across the project.
     </project-description>
 
     <technology>
