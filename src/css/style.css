@@ -417,7 +417,7 @@ header ul {
       width: 90%; } }
 
 .lets-connect {
-  height: 242px; }
+  height: 210px; }
   .lets-connect span {
     font-family: 'WorkSansExtraBold', serif;
     font-size: 36px;
@@ -428,7 +428,7 @@ header ul {
     padding-top: 20px; }
   .lets-connect-socials-container {
     text-align: center;
-    padding: 72px 0 20px 0; }
+    padding: 40px 0 20px 0; }
   .lets-connect-social {
     margin: auto 23px; }
 
