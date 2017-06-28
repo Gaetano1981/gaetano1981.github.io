@@ -5,16 +5,16 @@
         display: block;
         width: 100%;
         text-align: center;
-        padding-top: 50px;
+        padding-top: $lets-connect-social-padding-vert;
     }
 
     &-socials-container {
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: $lets-connect-social-padding-vert;
     }
 
     &-social {
-        margin: auto 50px;
+        margin: auto $lets-connect-social-margin-lat;
     }
 }
 
