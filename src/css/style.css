@@ -101,7 +101,7 @@ body {font-family: Verdana,sans-serif;margin:0}
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: black;
+    color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -109,6 +109,9 @@ body {font-family: Verdana,sans-serif;margin:0}
     top: 50%;
     z-index: 998;
     /* On hover, add a black background color with a little bit see-through */ }
+    @media only screen and (max-width: 1439px) {
+      .projects-slideshow .slideshow-prev, .projects-slideshow .slideshow-next {
+        font-size: 26px; } }
     .projects-slideshow .slideshow-prev:hover, .projects-slideshow .slideshow-prev:hover, .projects-slideshow .slideshow-next:hover, .projects-slideshow .slideshow-next:hover {
       background-color: rgba(0, 0, 0, 0.8); }
   .projects-slideshow .slideshow-next {
@@ -523,7 +526,8 @@ header ul {
   .project-details .view-online {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 5%; }
+    padding-top: 10%;
+    padding-bottom: 25%; }
     .project-details .view-online span {
       padding-top: 0.1vw;
       padding-left: 2%;

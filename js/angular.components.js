@@ -114,17 +114,19 @@
             link: function(scope, elem) {
                 scope.slideIndex = 1;
                 scope.plusSlides = function(n) {
-                    scope.showSlides(scope.slideIndex += n);
+                    scope.slideIndex += n;
+                    scope.showSlides(scope.slideIndex);
                 }
 
                 scope.currentSlide = function(n) {
-                    scope.showSlides(scope.slideIndex = n);
+                    scope.slideIndex = n;
+                    scope.showSlides(scope.slideIndex);
                 }
 
                 scope.showSlides = function(n) {
                     var i;
                     var slides = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("dot");
+                    var dots = document.getElementsByClassName("slideshow-dot");
                     if (n > slides.length) {
                         scope.slideIndex = 1
                     }
@@ -141,6 +143,7 @@
                     if (dots.length > 0)
                         dots[scope.slideIndex - 1].className += " active";
                 }
+
                 if (scope.$last) {
                     scope.showSlides(1);
                 }
