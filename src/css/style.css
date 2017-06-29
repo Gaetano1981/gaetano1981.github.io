@@ -526,13 +526,17 @@ header ul {
   .project-details .view-online {
     display: flex;
     justify-content: flex-start;
-    padding-top: 10%;
-    padding-bottom: 30%; }
+    padding-top: 5%;
+    padding-bottom: 15%; }
     .project-details .view-online span {
       padding-top: 0.1vw;
       padding-left: 2%;
       font-family: 'WorkSansBold', serif;
       font-size: 20px; }
+    @media only screen and (max-width: 1439px) {
+      .project-details .view-online {
+        padding-top: 10%;
+        padding-bottom: 30%; } }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**

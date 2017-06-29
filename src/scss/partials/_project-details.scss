@@ -23,7 +23,11 @@
             padding-left: 2%;
             @include font-manager("view-online");
         }
-        padding-top: 10%;
-        padding-bottom: 30%;
+        padding-top: 5%;
+        padding-bottom: 15%;
+        @include mq('desktop-wide', max) {
+            padding-top: 10%;
+            padding-bottom: 30%;
+	    }
     }
 }
