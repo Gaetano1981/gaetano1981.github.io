@@ -77,6 +77,9 @@ i::before {
 html {
   -ms-overflow-style: none; }
 
+img, .left-activated, .right-activated {
+  margin-top: -3px; }
+
 /** {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;margin:0}
 .mySlides {display:none}*/
@@ -95,15 +98,16 @@ body {font-family: Verdana,sans-serif;margin:0}
   .projects-slideshow .slideshow-prev, .projects-slideshow .slideshow-next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
+    top: 50%;
+    z-index: 998;
     /* On hover, add a black background color with a little bit see-through */ }
     .projects-slideshow .slideshow-prev:hover, .projects-slideshow .slideshow-prev:hover, .projects-slideshow .slideshow-next:hover, .projects-slideshow .slideshow-next:hover {
       background-color: rgba(0, 0, 0, 0.8); }
@@ -160,9 +164,6 @@ body {font-family: Verdana,sans-serif;margin:0}
     opacity: .4; }
   to {
     opacity: 1; } }
-  @media only screen and (max-width: 300px) {
-    .projects-slideshow .slideshow-prev, .projects-slideshow .slideshow-next, .projects-slideshow .slideshow-text {
-      font-size: 11px; } }
 
 .projects-slideshow .slideshow-dot-buttons {
   position: absolute;
@@ -188,8 +189,8 @@ header ul {
     display: inline-block;
     width: 50%;
     height: 100%;
-    height: 40px;
-    line-height: 40px; }
+    height: 43px;
+    line-height: 43px; }
     @media only screen and (max-width: 1439px) {
       header ul li {
         padding: 5% 0 5% 0; } }

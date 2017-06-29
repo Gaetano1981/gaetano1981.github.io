@@ -17,6 +17,9 @@
 
   <img class="slideshow-title" ng-src="{{obj.imageFilename}}" />
 
+  <a class="slideshow-prev" ng-click="plusSlides(-1)" slideshow>&#10094;</a>
+  <a class="slideshow-next" ng-click="plusSlides(1)" slideshow>&#10095;</a>
+
   <div class="slideshow-dot-buttons" slideshow>
   <span 
       ng-repeat="obj in projectData track by $index" 
@@ -31,9 +34,6 @@
   </div>
   <!--<div class="slideshow-text">{{obj.description}}</div>-->
 </div>
-
-<a class="slideshow-prev" ng-click="plusSlides(-1)" slideshow>&#10094;</a>
-<a class="slideshow-next" ng-click="plusSlides(1)" slideshow>&#10095;</a>
 
 </div>
 <br>

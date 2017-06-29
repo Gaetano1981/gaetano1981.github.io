@@ -36,8 +36,8 @@ html {
 	-ms-overflow-style: none;
 }
 
-img:not(.slideshow-title) {
-	//margin-top: -5px;
+img, .left-activated, .right-activated {
+	margin-top: -3px;
 	//border: 0;
 	//padding: 0;
 }
